@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<package name="com.afis.jx.entity.automodel" />
+	</typeAliases>
+	<mappers>
+
+		<!-- 以下为MyBatis Generate 自动生成映射文件,从GeneratedMapperConfig.xml文件中拷贝 -->
+		<mapper resource="autosqlmap/GoodsMapper.xml" />
+		<mapper resource="autosqlmap/GoodsPropertyMapper.xml" />
+		<mapper resource="autosqlmap/PrivilegePolicyMapper.xml" />
+		<mapper resource="autosqlmap/FeeRateMapper.xml" />
+		<mapper resource="autosqlmap/WarehouseMapper.xml" />
+		<mapper resource="autosqlmap/IssueMapper.xml" />
+		<mapper resource="autosqlmap/IssueMemberMapper.xml" />
+		<mapper resource="autosqlmap/PurchaseMapper.xml" />
+		<mapper resource="autosqlmap/DistributionMapper.xml" />
+		<mapper resource="autosqlmap/PurchaseMapper.xml" />
+		<mapper resource="autosqlmap/FundDetailMapper.xml" />
+		<mapper resource="autosqlmap/IssueTargetRecordMapper.xml" />
+		<mapper resource="autosqlmap/MemberMapper.xml" />
+		<mapper resource="autosqlmap/MemberOperatorMapper.xml" />
+		<mapper resource="autosqlmap/OperatorMapper.xml" />
+		<mapper resource="autosqlmap/InventoryDetailMapper.xml" />
+		<mapper resource="autosqlmap/FundTransferRecordMapper.xml" />
+		<mapper resource="autosqlmap/OperatorLogMapper.xml" />
+		<mapper resource="autosqlmap/DeliveryMapper.xml" />
+		<mapper resource="autosqlmap/IssueContractMapper.xml" />
+		<mapper resource="autosqlmap/TransferHfpMapper.xml" />
+		<mapper resource="autosqlmap/BreakRecordMapper.xml" />
+	    <mapper resource="autosqlmap/GoodsPropertyValueMapper.xml" />
+	    <mapper resource="autosqlmap/IssueGoodsPropertyMapper.xml" />
+		<mapper resource="autosqlmap/IssueLogisticsMapper.xml" />
+		<mapper resource="autosqlmap/TradeHoursMapper.xml" />
+    	<mapper resource="autosqlmap/IssuePictureMapper.xml" />
+		<mapper resource="autosqlmap/IssueRecommendMapper.xml" />
+		<mapper resource="autosqlmap/HfpGoodsMapper.xml" />
+		<mapper resource="autosqlmap/GoodsRelationMapper.xml" />
+		<mapper resource="autosqlmap/InformationContentMapper.xml" />
+		
+		
+		<!--以下为人工书写映射文件 -->
+		<mapper resource="sqlmap/BusinessMapper.xml" />
+		<mapper resource="sqlmap/DeliveryExtMapper.xml" />
+		<mapper resource="sqlmap/InventoryDetailExtMapper.xml" />
+		<mapper resource="sqlmap/GoodsExtMapper.xml" />
+		<mapper resource="sqlmap/FundTransferRecordExtMapper.xml" />
+		<mapper resource="sqlmap/TargetIssueExtMapper.xml" />
+		<mapper resource="sqlmap/IssueExtMapper.xml" />
+		<mapper resource="sqlmap/MemberExtMapper.xml" />
+		<mapper resource="sqlmap/PurchaseExtMapper.xml" />
+		<mapper resource="sqlmap/DistributionExtMapper.xml" />
+		<mapper resource="sqlmap/BreakRecordExtMapper.xml" />
+		<mapper resource="sqlmap/FundDetailExtMapper.xml" />
+		<mapper resource="sqlmap/HfpGoodsExtMapper.xml" />
+		<mapper resource="sqlmap/TradeHoursExtMapper.xml" />
+		<mapper resource="sqlmap/IssueMemberExtMapper.xml" />
+		<mapper resource="sqlmap/TransferHfpExtMapper.xml" />
+	</mappers>
+</configuration>
